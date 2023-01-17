@@ -1,0 +1,10 @@
+{
+    "name": "alex/allegro",
+    "description": "parsing from allegro",
+    "autoload": {
+        "psr-4": {
+            "allegroParser\\": "public/app"
+        }
+    },
+    "require": {}
+}
