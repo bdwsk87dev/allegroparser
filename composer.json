@@ -3,8 +3,10 @@
     "description": "parsing from allegro",
     "autoload": {
         "psr-4": {
-            "allegroParser\\": "public/app"
+            "allegroParser\\": "public/app/"
         }
     },
-    "require": {}
+    "require": {
+        "zenthangplus/html-dom-parser": "^1.0"
+    }
 }

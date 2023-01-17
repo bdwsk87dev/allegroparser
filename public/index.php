@@ -1,11 +1,9 @@
 <?php
 
 require __DIR__ . '/../vendor/autoload.php';
-
 use allegroParser\parser;
-
-$html = parser::curlInit('https://simpsonsua.tv/sezon-33/3642-33-sezon-11-seriya.html');
-
-echo "Hello!";
-
-echo $html;
+use allegroParser\DomParser;
+$url = 'https://allegro.pl/uzytkownik/Grand_Trade';
+// $html = parser::curlInit($url);
+DomParser::parserInit('<div data-role="Categories"><a>this is the link!!</a></div>');
+echo "It's work!!!";

@@ -4,8 +4,61 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0be13eda56e6b4258c282da652bf599b",
-    "packages": [],
+    "content-hash": "bc9e62e9b06b62b2de7a093019c6a913",
+    "packages": [
+        {
+            "name": "zenthangplus/html-dom-parser",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zenthangplus/HTMLDomParser.git",
+                "reference": "8537dc36ebbc4ed4ad0561a8a799ff3603d96cba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zenthangplus/HTMLDomParser/zipball/8537dc36ebbc4ed4ad0561a8a799ff3603d96cba",
+                "reference": "8537dc36ebbc4ed4ad0561a8a799ff3603d96cba",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/Sources/simple_html_dom.php"
+                ],
+                "psr-4": {
+                    "HTMLDomParser\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "zenthangplus",
+                    "email": "zenthangplus@gmail.com"
+                }
+            ],
+            "description": "A Simple HTML DOM parser written in PHP let you manipulate HTML in a easy way with CSS Selector.",
+            "keywords": [
+                "dom",
+                "html",
+                "parser",
+                "selector"
+            ],
+            "support": {
+                "issues": "https://github.com/zenthangplus/HTMLDomParser/issues",
+                "source": "https://github.com/zenthangplus/HTMLDomParser/tree/master"
+            },
+            "time": "2019-05-13T16:45:34+00:00"
+        }
+    ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
